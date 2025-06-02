@@ -1,59 +1,86 @@
 {
-  "nomeLoja": "Tia-Van Lanches",
   "categorias": [
+    {
+      "id": "sanduiches",
+      "nome": "Sanduíches",
+      "icone": "https://img.icons8.com/ios-filled/50/ffd700/burger.png",
+      "produtos": [
+        {
+          "id": "s1",
+          "nome": "X-Burguer",
+          "descricao": "Hambúrguer artesanal com queijo cheddar e maionese especial.",
+          "preco": 22.5,
+          "imagem": "https://images.unsplash.com/photo-1550317138-10000687a72b?auto=format&fit=crop&w=64&q=80"
+        },
+        {
+          "id": "s2",
+          "nome": "Sanduíche Vegano",
+          "descricao": "Delicioso hambúrguer à base de grão-de-bico e especiarias.",
+          "preco": 25.0,
+          "imagem": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=64&q=80"
+        }
+      ]
+    },
     {
       "id": "salgados",
       "nome": "Salgados",
-      "icone": "https://img.icons8.com/emoji/48/fried-shrimp.png",
+      "icone": "https://img.icons8.com/ios-filled/50/ffd700/french-fries.png",
       "produtos": [
         {
-          "id": 22,
-          "nome": "X-Burguer",
-          "descricao": "Pão, hambúrguer 90g, queijo, alface, tomate",
-          "preco": 20.99,
-          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwz6TDnDzCldcIPosNPZbpeNTqa-rpjJEEVg&s"
+          "id": "sal1",
+          "nome": "Coxinha",
+          "descricao": "Clássica coxinha de frango com catupiry.",
+          "preco": 7.0,
+          "imagem": "https://images.unsplash.com/photo-1626077281629-19f26d546c42?auto=format&fit=crop&w=64&q=80"
+        },
+        {
+          "id": "sal2",
+          "nome": "Esfiha",
+          "descricao": "Esfiha aberta de carne temperada.",
+          "preco": 6.0,
+          "imagem": "https://images.unsplash.com/photo-1595854143937-b72c234b121e?auto=format&fit=crop&w=64&q=80"
         }
       ]
     },
     {
       "id": "doces",
       "nome": "Doces",
-      "icone": "https://img.icons8.com/emoji/48/chocolate-bar.png",
+      "icone": "https://img.icons8.com/ios-filled/50/ffd700/doughnut.png",
       "produtos": [
         {
-          "id": 23,
-          "nome": "Bolo de Pote - Chocolate",
-          "descricao": "Bolo de Pote sabor chocolate",
-          "preco": 12.00,
-          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ83LVb7SAF51OctRy_wkSQJyjL-6pxtv-brQ&s"
+          "id": "d1",
+          "nome": "Brownie",
+          "descricao": "Brownie de chocolate com castanhas.",
+          "preco": 9.0,
+          "imagem": "https://images.unsplash.com/photo-1604908177522-4023d8f3d84e?auto=format&fit=crop&w=64&q=80"
+        },
+        {
+          "id": "d2",
+          "nome": "Brigadeiro Gourmet",
+          "descricao": "Brigadeiro feito com chocolate belga.",
+          "preco": 4.0,
+          "imagem": "https://images.unsplash.com/photo-1603006905322-19b6acb4abed?auto=format&fit=crop&w=64&q=80"
         }
       ]
     },
     {
       "id": "bebidas",
       "nome": "Bebidas",
-      "icone": "https://img.icons8.com/emoji/48/bubble-tea.png",
+      "icone": "https://img.icons8.com/ios-filled/50/ffd700/cocktail.png",
       "produtos": [
         {
-          "id": 24,
-          "nome": "Refrigerante Lata",
-          "descricao": "350ml - Diversos sabores",
-          "preco": 4.50,
-          "imagem": "https://img.icons8.com/emoji/48/bubble-tea.png"
-        }
-      ]
-    },
-    {
-      "id": "outros",
-      "nome": "Outros",
-      "icone": "https://img.icons8.com/emoji/48/french-fries.png",
-      "produtos": [
+          "id": "b1",
+          "nome": "Suco Natural",
+          "descricao": "Suco de laranja fresco, sem adição de açúcar.",
+          "preco": 8.0,
+          "imagem": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=64&q=80"
+        },
         {
-          "id": 25,
-          "nome": "Coxinha-Neymar",
-          "descricao": "Massa frita em formato do menino Ney, frango grelhado com catupiry",
-          "preco": 8.25,
-          "imagem": "https://conteudo.imguol.com.br/c/copadomundo/2018/Imagem/c4/2018/03/24/neymar-neyxinha-coxinha-1521918237196_v2_960x1280.jpg"
+          "id": "b2",
+          "nome": "Refrigerante",
+          "descricao": "Lata 350ml gelada.",
+          "preco": 6.0,
+          "imagem": "https://images.unsplash.com/photo-1571066811602-716837d6818a?auto=format&fit=crop&w=64&q=80"
         }
       ]
     }
