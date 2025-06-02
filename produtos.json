@@ -1,88 +1,118 @@
 {
-  "categorias": [
-    {
-      "id": "sanduiches",
-      "nome": "Sanduíches",
-      "icone": "https://img.icons8.com/ios-filled/50/ffd700/burger.png",
-      "produtos": [
+    "lousa": [
+      "Lanche 1",
+      "Lanche 2",
+      "Lanche 3",
+      "Bebida 1",
+      "Bebida 2",
+      "Doce 1"
+    ],
+    "cardapio": {
+      "lanches": [
         {
-          "id": "s1",
-          "nome": "X-Burguer",
-          "descricao": "Hambúrguer artesanal com queijo cheddar e maionese especial.",
-          "preco": 22.5,
-          "imagem": "https://images.unsplash.com/photo-1550317138-10000687a72b?auto=format&fit=crop&w=64&q=80"
+          "id": 1,
+          "nome": "X-Ratão",
+          "preco": 40.00,
+          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkLNp81EbKDQuxr7xq_Ez9olWy4J2U0vBpCQ&s"
         },
         {
-          "id": "s2",
-          "nome": "Sanduíche Vegano",
-          "descricao": "Delicioso hambúrguer à base de grão-de-bico e especiarias.",
-          "preco": 25.0,
-          "imagem": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=64&q=80"
+          "id": 2,
+          "nome": "X-Salada",
+          "preco": 42.00,
+          "imagem": "https://i0.wp.com/radames.manosso.nom.br/linguagem/files/x-salada.jpg?w=604&ssl=1"
+        },
+        {
+          "id": 3,
+          "nome": "Misto Quente",
+          "preco": 15.00,
+          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUBUVrYjCeNfc5c2H9Py83Y1J4s73mX0oO_g&s"
+        },
+        {
+          "id": 4,
+          "nome": "Hambúrguer de Frango",
+          "preco": 38.00,
+          "imagem": "https://wessel.com.br/cdn/shop/products/WESSEL_Burger_Frango.jpg?v=1678382242&width=1920"
         }
-      ]
-    },
-    {
-      "id": "salgados",
-      "nome": "Salgados",
-      "icone": "https://img.icons8.com/ios-filled/50/ffd700/french-fries.png",
-      "produtos": [
+      ],
+      "bebidas": {
+        "refrigerantes": [
+          {
+            "id": 5,
+            "nome": "Coca-Cola",
+            "preco": 8.00,
+            "imagem": "https://via.placeholder.com/60?text=Coca"
+          },
+          {
+            "id": 6,
+            "nome": "Guaraná",
+            "preco": 7.00,
+            "imagem": "https://via.placeholder.com/60?text=Guarana"
+          },
+          {
+            "id": 7,
+            "nome": "Sprite",
+            "preco": 7.00,
+            "imagem": "https://via.placeholder.com/60?text=Sprite"
+          },
+          {
+            "id": 8,
+            "nome": "Pepsi",
+            "preco": 7.00,
+            "imagem": "https://via.placeholder.com/60?text=Pepsi"
+          }
+        ],
+        "sucos": [
+          {
+            "id": 9,
+            "nome": "Suco de Laranja",
+            "preco": 6.00,
+            "imagem": "https://via.placeholder.com/60?text=Laranja"
+          },
+          {
+            "id": 10,
+            "nome": "Suco de Uva",
+            "preco": 6.00,
+            "imagem": "https://via.placeholder.com/60?text=Uva"
+          },
+          {
+            "id": 11,
+            "nome": "Suco de Maracujá",
+            "preco": 6.00,
+            "imagem": "https://via.placeholder.com/60?text=Maracuja"
+          },
+          {
+            "id": 12,
+            "nome": "Suco de Acerola",
+            "preco": 6.00,
+            "imagem": "https://via.placeholder.com/60?text=Acerola"
+          }
+        ]
+      },
+      "doces": [
         {
-          "id": "sal1",
-          "nome": "Coxinha",
-          "descricao": "Clássica coxinha de frango com catupiry.",
-          "preco": 7.0,
-          "imagem": "https://images.unsplash.com/photo-1626077281629-19f26d546c42?auto=format&fit=crop&w=64&q=80"
+          "id": 13,
+          "nome": "Brigadeiro",
+          "preco": 3.00,
+          "imagem": "https://via.placeholder.com/60?text=Brigadeiro"
         },
         {
-          "id": "sal2",
-          "nome": "Esfiha",
-          "descricao": "Esfiha aberta de carne temperada.",
-          "preco": 6.0,
-          "imagem": "https://images.unsplash.com/photo-1595854143937-b72c234b121e?auto=format&fit=crop&w=64&q=80"
-        }
-      ]
-    },
-    {
-      "id": "doces",
-      "nome": "Doces",
-      "icone": "https://img.icons8.com/ios-filled/50/ffd700/doughnut.png",
-      "produtos": [
-        {
-          "id": "d1",
-          "nome": "Brownie",
-          "descricao": "Brownie de chocolate com castanhas.",
-          "preco": 9.0,
-          "imagem": "https://images.unsplash.com/photo-1604908177522-4023d8f3d84e?auto=format&fit=crop&w=64&q=80"
+          "id": 14,
+          "nome": "Beijinho",
+          "preco": 3.00,
+          "imagem": "https://via.placeholder.com/60?text=Beijinho"
         },
         {
-          "id": "d2",
-          "nome": "Brigadeiro Gourmet",
-          "descricao": "Brigadeiro feito com chocolate belga.",
-          "preco": 4.0,
-          "imagem": "https://images.unsplash.com/photo-1603006905322-19b6acb4abed?auto=format&fit=crop&w=64&q=80"
-        }
-      ]
-    },
-    {
-      "id": "bebidas",
-      "nome": "Bebidas",
-      "icone": "https://img.icons8.com/ios-filled/50/ffd700/cocktail.png",
-      "produtos": [
-        {
-          "id": "b1",
-          "nome": "Suco Natural",
-          "descricao": "Suco de laranja fresco, sem adição de açúcar.",
-          "preco": 8.0,
-          "imagem": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=64&q=80"
+          "id": 15,
+          "nome": "Bolo de Cenoura",
+          "preco": 5.00,
+          "imagem": "https://via.placeholder.com/60?text=Cenoura"
         },
         {
-          "id": "b2",
-          "nome": "Refrigerante",
-          "descricao": "Lata 350ml gelada.",
-          "preco": 6.0,
-          "imagem": "https://images.unsplash.com/photo-1571066811602-716837d6818a?auto=format&fit=crop&w=64&q=80"
+          "id": 16,
+          "nome": "Paçoca",
+          "preco": 2.50,
+          "imagem": "https://via.placeholder.com/60?text=Pacoca"
         }
       ]
     }
-  ]
-}
+  }
