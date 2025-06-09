@@ -1,118 +1,187 @@
 {
-    "lousa": [
-      "Lanche 1",
-      "Lanche 2",
-      "Lanche 3",
-      "Bebida 1",
-      "Bebida 2",
-      "Doce 1"
-    ],
-    "cardapio": {
-      "lanches": [
-        {
-          "id": 1,
-          "nome": "X-Ratão",
-          "preco": 40.00,
-          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkLNp81EbKDQuxr7xq_Ez9olWy4J2U0vBpCQ&s"
-        },
-        {
-          "id": 2,
-          "nome": "X-Salada",
-          "preco": 42.00,
-          "imagem": "https://i0.wp.com/radames.manosso.nom.br/linguagem/files/x-salada.jpg?w=604&ssl=1"
-        },
-        {
-          "id": 3,
-          "nome": "Misto Quente",
-          "preco": 15.00,
-          "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUBUVrYjCeNfc5c2H9Py83Y1J4s73mX0oO_g&s"
-        },
-        {
-          "id": 4,
-          "nome": "Hambúrguer de Frango",
-          "preco": 38.00,
-          "imagem": "https://wessel.com.br/cdn/shop/products/WESSEL_Burger_Frango.jpg?v=1678382242&width=1920"
-        }
-      ],
-      "bebidas": {
-        "refrigerantes": [
+    "biblioteca": {
+      "categorias": {
+        "Ficção": [
           {
-            "id": 5,
-            "nome": "Coca-Cola",
-            "preco": 8.00,
-            "imagem": "https://via.placeholder.com/60?text=Coca"
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "ano": 1949,
+            "isbn": "9780451524935"
           },
           {
-            "id": 6,
-            "nome": "Guaraná",
-            "preco": 7.00,
-            "imagem": "https://via.placeholder.com/60?text=Guarana"
+            "titulo": "O Senhor dos Anéis",
+            "autor": "J.R.R. Tolkien",
+            "ano": 1954,
+            "isbn": "9780544003415"
           },
           {
-            "id": 7,
-            "nome": "Sprite",
-            "preco": 7.00,
-            "imagem": "https://via.placeholder.com/60?text=Sprite"
-          },
-          {
-            "id": 8,
-            "nome": "Pepsi",
-            "preco": 7.00,
-            "imagem": "https://via.placeholder.com/60?text=Pepsi"
+            "titulo": "Fahrenheit 451",
+            "autor": "Ray Bradbury",
+            "ano": 1953,
+            "isbn": "9781451673319"
           }
         ],
-        "sucos": [
+        "Não Ficção": [
           {
-            "id": 9,
-            "nome": "Suco de Laranja",
-            "preco": 6.00,
-            "imagem": "https://via.placeholder.com/60?text=Laranja"
+            "titulo": "Sapiens: Uma Breve História da Humanidade",
+            "autor": "Yuval Noah Harari",
+            "ano": 2011,
+            "isbn": "9780062316097"
           },
           {
-            "id": 10,
-            "nome": "Suco de Uva",
-            "preco": 6.00,
-            "imagem": "https://via.placeholder.com/60?text=Uva"
+            "titulo": "Educated",
+            "autor": "Tara Westover",
+            "ano": 2018,
+            "isbn": "9780399590504"
           },
           {
-            "id": 11,
-            "nome": "Suco de Maracujá",
-            "preco": 6.00,
-            "imagem": "https://via.placeholder.com/60?text=Maracuja"
+            "titulo": "O Poder do Hábito",
+            "autor": "Charles Duhigg",
+            "ano": 2012,
+            "isbn": "9780812981605"
+          }
+        ],
+        "Fantasia": [
+          {
+            "titulo": "Harry Potter e a Pedra Filosofal",
+            "autor": "J.K. Rowling",
+            "ano": 1997,
+            "isbn": "9780590353427"
           },
           {
-            "id": 12,
-            "nome": "Suco de Acerola",
-            "preco": 6.00,
-            "imagem": "https://via.placeholder.com/60?text=Acerola"
+            "titulo": "O Nome do Vento",
+            "autor": "Patrick Rothfuss",
+            "ano": 2007,
+            "isbn": "9780756404741"
+          },
+          {
+            "titulo": "Mistborn: O Império Final",
+            "autor": "Brandon Sanderson",
+            "ano": 2006,
+            "isbn": "9780765311788"
+          }
+        ],
+        "História": [
+          {
+            "titulo": "Guns, Germs, and Steel",
+            "autor": "Jared Diamond",
+            "ano": 1997,
+            "isbn": "9780393317558"
+          },
+          {
+            "titulo": "A People's History of the United States",
+            "autor": "Howard Zinn",
+            "ano": 1980,
+            "isbn": "9780062397348"
+          },
+          {
+            "titulo": "The Wright Brothers",
+            "autor": "David McCullough",
+            "ano": 2015,
+            "isbn": "9781476728759"
+          }
+        ],
+        "Ciência": [
+          {
+            "titulo": "Uma Breve História do Tempo",
+            "autor": "Stephen Hawking",
+            "ano": 1988,
+            "isbn": "9780553380163"
+          },
+          {
+            "titulo": "O Gene: Uma História Íntima",
+            "autor": "Siddhartha Mukherjee",
+            "ano": 2016,
+            "isbn": "9781476733501"
+          },
+          {
+            "titulo": "Cosmos",
+            "autor": "Carl Sagan",
+            "ano": 1980,
+            "isbn": "9780345331359"
+          }
+        ],
+        "Autoajuda": [
+          {
+            "titulo": "Como Fazer Amigos e Influenciar Pessoas",
+            "autor": "Dale Carnegie",
+            "ano": 1936,
+            "isbn": "9780671027032"
+          },
+          {
+            "titulo": "O Milagre da Manhã",
+            "autor": "Hal Elrod",
+            "ano": 2012,
+            "isbn": "9780979019715"
+          },
+          {
+            "titulo": "A Sutil Arte de Ligar o F*da-se",
+            "autor": "Mark Manson",
+            "ano": 2016,
+            "isbn": "9780062457714"
+          }
+        ],
+        "Tecnologia": [
+          {
+            "titulo": "Clean Code",
+            "autor": "Robert C. Martin",
+            "ano": 2008,
+            "isbn": "9780132350884"
+          },
+          {
+            "titulo": "The Pragmatic Programmer",
+            "autor": "Andrew Hunt e David Thomas",
+            "ano": 1999,
+            "isbn": "9780201616224"
+          },
+          {
+            "titulo": "Introduction to Algorithms",
+            "autor": "Thomas H. Cormen et al.",
+            "ano": 2009,
+            "isbn": "9780262033848"
+          }
+        ],
+        "Romance": [
+          {
+            "titulo": "Orgulho e Preconceito",
+            "autor": "Jane Austen",
+            "ano": 1813,
+            "isbn": "9780141439518"
+          },
+          {
+            "titulo": "O Morro dos Ventos Uivantes",
+            "autor": "Emily Brontë",
+            "ano": 1847,
+            "isbn": "9780141439556"
+          },
+          {
+            "titulo": "Como Eu Era Antes de Você",
+            "autor": "Jojo Moyes",
+            "ano": 2012,
+            "isbn": "9780143124542"
+          }
+        ],
+        "Infantil": [
+          {
+            "titulo": "O Pequeno Príncipe",
+            "autor": "Antoine de Saint-Exupéry",
+            "ano": 1943,
+            "isbn": "9780156012195"
+          },
+          {
+            "titulo": "Alice no País das Maravilhas",
+            "autor": "Lewis Carroll",
+            "ano": 1865,
+            "isbn": "9780486275437"
+          },
+          {
+            "titulo": "Matilda",
+            "autor": "Roald Dahl",
+            "ano": 1988,
+            "isbn": "9780142410370"
           }
         ]
-      },
-      "doces": [
-        {
-          "id": 13,
-          "nome": "Brigadeiro",
-          "preco": 3.00,
-          "imagem": "https://via.placeholder.com/60?text=Brigadeiro"
-        },
-        {
-          "id": 14,
-          "nome": "Beijinho",
-          "preco": 3.00,
-          "imagem": "https://via.placeholder.com/60?text=Beijinho"
-        },
-        {
-          "id": 15,
-          "nome": "Bolo de Cenoura",
-          "preco": 5.00,
-          "imagem": "https://via.placeholder.com/60?text=Cenoura"
-        },
-        {
-          "id": 16,
-          "nome": "Paçoca",
-          "preco": 2.50,
-          "imagem": "https://via.placeholder.com/60?text=Pacoca"
-        }
-      ]
+      }
     }
   }
+  
